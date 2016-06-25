@@ -636,6 +636,10 @@
     "sqlalchemy.Table": [
       "graphene.contrib.sqlalchemy.tests.models"
     ], 
+    "sqlalchemy.dialects.postgresql": [
+      "graphene.contrib.sqlalchemy.tests.test_converter", 
+      "graphene.contrib.sqlalchemy.converter"
+    ], 
     "sqlalchemy.ext.declarative.api.DeclarativeMeta": [
       "graphene.contrib.sqlalchemy.utils"
     ], 

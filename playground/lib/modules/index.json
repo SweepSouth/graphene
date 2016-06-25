@@ -4055,8 +4055,11 @@
         "graphene.contrib.sqlalchemy.fields", 
         "graphene.contrib.sqlalchemy.types", 
         "graphene.core.classtypes.enum", 
+        "graphene.core.types.custom_scalars", 
+        "graphene.core.types.definitions", 
         "graphene.core.types.scalars", 
         "singledispatch.singledispatch", 
+        "sqlalchemy.dialects.postgresql", 
         "sqlalchemy.orm.interfaces", 
         "sqlalchemy_utils.types.choice.ChoiceType"
       ]
@@ -4111,7 +4114,9 @@
         "graphene.contrib.sqlalchemy.fields", 
         "graphene.contrib.sqlalchemy.tests.models", 
         "graphene.contrib.sqlalchemy.types", 
+        "graphene.core.types.custom_scalars", 
         "py.test.raises", 
+        "sqlalchemy.dialects.postgresql", 
         "sqlalchemy.ext.declarative.declarative_base", 
         "sqlalchemy_utils.types.choice.ChoiceType"
       ]
